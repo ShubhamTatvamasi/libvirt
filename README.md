@@ -12,6 +12,6 @@ qemu-img info focal-server-cloudimg-amd64.img
 
 generate boot iso:
 ```bash
-sudo genisoimage -output ubuntu-cidata.iso \
+genisoimage -output ubuntu-cidata.iso \
   -volid cidata -joliet -rock user-data meta-data
 ```
