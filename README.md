@@ -7,19 +7,13 @@ wget http://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-amd64.im
 
 create instance disk from cloud image:
 ```bash
-qemu-img create -f qcow2 -F qcow2 \
-  -o backing_file=focal-server-cloudimg-amd64.img \
-  instance-1.qcow2
+qemu-img create -b focal-server-cloudimg-amd64.img \
+  -f qcow2 -F qcow2 ubuntu-1.img 10G
 ```
 
 check disk info:
 ```bash
-qemu-img info instance-1.qcow2
-```
-
-resize image to 5GB
-```bash
-qemu-img resize instance-1.qcow2 5G
+qemu-img info ubuntu-1.img
 ```
 
 generate boot iso:
@@ -27,3 +21,12 @@ generate boot iso:
 genisoimage -output ubuntu-cidata.iso \
   -volid cidata -joliet -rock user-data meta-data
 ```
+---
+
+### Extra
+
+resize image to 5GB
+```bash
+qemu-img resize ubuntu-1.img 5G
+```
+
