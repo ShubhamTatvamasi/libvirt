@@ -10,10 +10,8 @@ check image info:
 qemu-img info focal-server-cloudimg-amd64.img
 ```
 
-convert qcow2 to raw:
+generate boot iso:
 ```bash
-qemu-img convert -f qcow2 -O raw \
-  focal-server-cloudimg-amd64.img \
-  focal-server-cloudimg-amd64.raw
+sudo genisoimage -output ubuntu-cidata.iso \
+  -volid cidata -joliet -rock user-data meta-data
 ```
-
