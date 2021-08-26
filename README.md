@@ -30,3 +30,7 @@ resize image to 5GB
 qemu-img resize ubuntu-1.img 5G
 ```
 
+install virt-manager:
+```bash
+sudo apt install virt-manager
+```
