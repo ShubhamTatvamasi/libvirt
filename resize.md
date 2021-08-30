@@ -54,3 +54,8 @@ write chnages to the disk:
 ```
 w
 ```
+
+resize file systems:
+```bash
+sudo resize2fs /dev/vda2
+```
