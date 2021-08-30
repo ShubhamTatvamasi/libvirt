@@ -10,3 +10,10 @@ Start the VM and check disk block:
 lablk
 ```
 
+start fdisk:
+```bash
+sudo fdisk /dev/vdb
+```
+
+
+
