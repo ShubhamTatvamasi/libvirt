@@ -18,4 +18,8 @@ virt-clone \
   --file /var/lib/libvirt/images/test-14.qcow2
 ```
 
+start vm:
+```bash
+virsh start test-14
+```
 
