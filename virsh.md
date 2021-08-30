@@ -2,7 +2,7 @@
 
 list all vms:
 ```bash
-virsh list
+virsh list --all
 ```
 
 edit vm config:
