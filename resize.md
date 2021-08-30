@@ -12,7 +12,7 @@ lablk
 
 start fdisk:
 ```bash
-sudo fdisk /dev/vdb
+sudo fdisk /dev/vda
 ```
 
 
