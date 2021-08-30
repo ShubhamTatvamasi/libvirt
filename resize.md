@@ -15,5 +15,8 @@ start fdisk:
 sudo fdisk /dev/vda
 ```
 
-
+write new changes to the disk:
+```bash
+w
+```
 
