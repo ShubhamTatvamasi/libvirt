@@ -28,6 +28,9 @@ genisoimage -output ubuntu-cidata.iso \
 resize image to 5GB
 ```bash
 qemu-img resize ubuntu-1.img 5G
+
+# OR Add 5GB
+qemu-img resize ubuntu-1.img +5G
 ```
 
 install virt-manager:
