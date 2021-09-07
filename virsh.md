@@ -14,4 +14,7 @@ set VM to autostart on reboot:
 ```bash
 virsh autostart ubuntu20.04
 virsh autostart ubuntu20.04 --disable
+
+# get list of autostart VMs
+virsh list --all --autostart
 ```
