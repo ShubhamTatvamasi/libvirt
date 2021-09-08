@@ -7,19 +7,19 @@ virsh list --all
 
 shtudown vm:
 ```bash
-virsh shutdown test-13
+virsh shutdown test_13
 ```
 
 clone vm:
 ```bash
 virt-clone \
-  --original test-13 \
-  --name test-14 \
-  --file /var/lib/libvirt/images/test-14.qcow2
+  --original test_13 \
+  --name test_14 \
+  --file /var/lib/libvirt/images/test_14.qcow2
 ```
 
 start vm:
 ```bash
-virsh start test-14
+virsh start test_14
 ```
 
