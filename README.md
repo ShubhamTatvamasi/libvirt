@@ -37,3 +37,10 @@ install virt-manager:
 ```bash
 sudo apt install virt-manager
 ```
+
+### macOS
+
+```bash
+brew tap arthurk/homebrew-virt-manager
+brew install libvirt virt-manager virt-viewer
+```
