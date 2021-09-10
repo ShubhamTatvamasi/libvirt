@@ -10,6 +10,11 @@ OR set total new size:
 sudo qemu-img resize /var/lib/libvirt/images/test-13.qcow2 100G
 ```
 
+check info of file:
+```bash
+sudo qemu-img info /var/lib/libvirt/images/test-13.qcow2
+```
+
 Start the VM and check disk block:
 ```bash
 lablk
