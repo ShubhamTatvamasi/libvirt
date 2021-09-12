@@ -2,17 +2,17 @@
 
 increase disk size:
 ```bash
-sudo qemu-img resize /var/lib/libvirt/images/test-13.qcow2 +10G
+sudo qemu-img resize /var/lib/libvirt/images/test_13.qcow2 +10G
 ```
 
 OR set total new size:
 ```bash
-sudo qemu-img resize /var/lib/libvirt/images/test-13.qcow2 100G
+sudo qemu-img resize /var/lib/libvirt/images/test_13.qcow2 100G
 ```
 
 check info of file:
 ```bash
-sudo qemu-img info /var/lib/libvirt/images/test-13.qcow2
+sudo qemu-img info /var/lib/libvirt/images/test_13.qcow2
 ```
 
 Start the VM and check disk block:
