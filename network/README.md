@@ -21,6 +21,7 @@ network:
   version: 2
   ethernets:
     ens1f0:
+      dhcp4: false
 
   bridges:
     br0:
