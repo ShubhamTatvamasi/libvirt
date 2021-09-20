@@ -10,6 +10,11 @@ edit vm config:
 virsh edit ubuntu20.04
 ```
 
+change CPU mode to `host-passthrough` and shutdown and restart the VM:
+```xml
+<cpu mode='host-passthrough'/>
+```
+
 set VM to autostart on reboot:
 ```bash
 virsh autostart ubuntu20.04
@@ -19,3 +24,6 @@ virsh autostart ubuntu20.04 --disable
 virsh list --all --autostart
 virsh list --all --no-autostart
 ```
+
+
+
