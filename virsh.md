@@ -25,5 +25,9 @@ virsh list --all --autostart
 virsh list --all --no-autostart
 ```
 
+get IP of the server:
+```bash
+virsh domifaddr ubuntu20.04
+```
 
 
