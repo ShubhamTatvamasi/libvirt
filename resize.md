@@ -25,11 +25,6 @@ start fdisk:
 sudo fdisk /dev/vda
 ```
 
-write new changes to the disk:
-```
-w
-```
-
 start `fdisk` again and print the partition table:
 ```
 p
