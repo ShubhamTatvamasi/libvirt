@@ -30,7 +30,7 @@ start fdisk:
 sudo fdisk /dev/vda
 ```
 
-start `fdisk` again and print the partition table:
+print the partition table:
 ```
 p
 ```
