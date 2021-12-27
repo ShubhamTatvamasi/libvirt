@@ -20,6 +20,11 @@ Start the VM and check disk block:
 lablk
 ```
 
+check device sectors:
+```bash
+sudo fdisk -l
+```
+
 start fdisk:
 ```bash
 sudo fdisk /dev/vda
