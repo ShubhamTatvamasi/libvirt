@@ -17,7 +17,7 @@ sudo qemu-img info /var/lib/libvirt/images/test_13.qcow2
 
 Start the VM and check disk block:
 ```bash
-lablk
+lsblk
 ```
 
 check device sectors:
